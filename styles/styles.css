@@ -1,0 +1,104 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main element styling */
+  main {
+    width: 80%;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 1rem; /* Add padding for better spacing */
+  }
+  
+  /* Aside element styling */
+  aside {
+    width: 20rem;
+    margin: 1rem auto; /* Center the aside element */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    position: relative; /* For absolute positioning of child elements */
+  }
+  
+  aside h2 {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  /* Image inside aside styling */
+  aside img {
+    width: 100%;
+    height: auto; /* Ensure the image is responsive */
+    max-width: 200px; /* Add max-width to constrain the size */
+  }
+  
+  /* Main image styling */
+  main img {
+    width: 100%;
+    height: auto; /* Ensure the image is responsive */
+    max-width: 200px; /* Add max-width to constrain the size */
+    float: right; /* Float the profile image to the right */
+    margin-left: 1rem; /* Add some margin for better spacing */
+  }
+  
+  /* Reset paragraph padding */
+  p {
+    padding: 0;
+    margin: 1rem 0; /* Add margin for better spacing */
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 2rem; /* Increase margin for better spacing */
+    border-top: 1px solid #000;
+    text-align: center;
+    padding-top: 1rem; /* Add padding for better spacing */
+  }
+  
+  /* Navigation styling */
+  nav {
+    background-color: #add8e6; /* Light blue background color */
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin-bottom: 10px; /* Add margin between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #007BFF; /* Change color on hover for better UX */
+  }
+  
+  /* Class Selectors */
+  .box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
